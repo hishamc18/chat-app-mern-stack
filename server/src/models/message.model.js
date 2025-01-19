@@ -17,7 +17,7 @@ const messageScheme = new mongoose.Schema({
     image: {
         type: String
     },
-}, { timestamps })
+}, { timestamps: true })
 
 const Message = mongoose.model("Message", messageScheme)
 
